@@ -11,6 +11,7 @@ from sqlalchemy import create_engine
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from collections import OrderedDict
+from sqlalchemy.pool import QueuePool
 
 app = Flask(__name__)
 
