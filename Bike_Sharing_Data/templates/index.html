@@ -165,10 +165,10 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="about-content mt-45">
-                                <h4 class="about-welcome">About Us </h4>
-                                <h3 class="about-title mt-10">Reasons to choose</h3>
-                                <p class="mt-25">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-                                    <br> <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <h4 class="about-welcome">About Austin B Cycle </h4>
+                                <h3 class="about-title mt-10">What does the data say?</h3>
+                                <p class="mt-25">Austin BCycle is public bike share system that rolled into Austin in December 2013. The system is owned by the City of Austin and operated by the locl 501(c)(3) non-profit Bike Share of Austin. Austin BCycle immediately broke national records for check outs during SXSW, making it one of the most successful bike sharing programs in the country. There are currently 75 BCycle stations around downtown Austin, in all the places you want to go!
+                                    <br> <br>Exploring the data we find a few interesting trends.  Austin B Cycle has set up kiosks at strategic location throughout the city, primarily focusing on the downtown area.  Of the membership otions offered the 24-hour which is later described as the Walk Up option is by far the most popular suggesting that individuals are primarliy not repeat users.  THe peak times of year for checkouts is seen to be March with almost  6,000 more checkouts than any other month of the year, this coresponds nicely with the SXSW Music Festival.  We also took a look at which day of the week was most popular and no big surprises here Friday - Sunday are the winners for bike checkouts.</p>
                             </div> <!-- about content -->
                         </div>
                     </div> <!-- row -->
@@ -185,6 +185,10 @@
             <section id="spatial_analysis" class="about-area pt-80 pb-130">
                 <div class="container">
                     <div class="row">
+                        <h4>Where are the hotspots?</h4>
+                        <p class="mt-25">Use the layer tool located at the top right of the map to explore kiosk location and usagae.</p>
+                    </div>
+                    <div class="row">
                         <div class="col-lg-12">
                                  <div id="map"></div> 
                         
@@ -200,8 +204,13 @@
         
             <section id="demand_analysis" class="about-area pt-80 pb-130">
                 <div class="container">
+                        <div class="row">
+                                <h4>When are the hot times?</h4>
+                                <p class="mt-25">Use the Time Series drop down to explore when the peak checkout times are.</p>
+                            </div>
                     <div class="row">
                         <div class="col-lg-12">
+                            <option  disabled selected>Select Time Series:</option>
                             <select id="selDataset" onchange="getData(this.value)"></select>
                             <div id="bar"></div>
                         </div>
@@ -216,8 +225,13 @@
         
             <section id="membership_analysis" class="about-area pt-80 pb-130">
                 <div class="container">
+                        <div class="row">
+                                <h4>Who is using B Cycle?</h4>
+                                <p class="mt-25">Use the Year drop down to explore the most popular memberships.</p>
+                            </div>
                     <div class="row">
                         <div class="col-lg-12">
+                            <option  disabled selected>Select Year:</option>
                             <select id="selDataset2" onchange="optionChanged(this.value)"></select>
                             <div id="pie"></div>
                         </div>
@@ -267,7 +281,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="single-team text-center mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
                                 <div class="team-image">
-                                    <img src="../static/images/team/jh.jpg" alt="Team">
+                                    <img src="../static/images/team/jh2.jpg" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h4 class="team-name"><a href="#">John Hawkins</a></h4>

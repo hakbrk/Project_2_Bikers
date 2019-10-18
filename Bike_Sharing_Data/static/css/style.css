@@ -1361,7 +1361,52 @@ p.form-message.error {
     color: #EB3656;
     background-color: #fff; }
 
+.team-image {
+  width: 300px;
+  height: 300px;
+}
+
 #map {
   width: 100%;
   height: 600px;
+}
+
+#spatial_analysis {
+  border-style: solid;
+  border-width: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#demand_analysis {
+  border-style: solid;
+  border-width: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#membership_analysis {
+  border-style: solid;
+  border-width: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
