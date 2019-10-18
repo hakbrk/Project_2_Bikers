@@ -4,6 +4,8 @@ function buildCharts(year) {
 
     var chartsURL = "/samples/" + year;
     d3.json(chartsURL).then(function(data) {
+        console.log(chartsURL);
+        console.log(data);
     
         var data = [{
             values: data.Counts,
@@ -28,10 +30,12 @@ function buildCharts(year) {
 
 function init() {
 //Grab a reference to the dropdown select element
-var selector = d3.select("#selDataset");
+var selector = d3.select("#selDataset2");
 
 d3.json("/names").then((yearNames) => {
+    console.log(yearNames);
     yearNames.forEach((year) => {
+        console.log(year);
         selector
             .append("option")
             .text(year)
